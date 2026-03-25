@@ -11,12 +11,10 @@ This project is managed with `uv`.
 - Orchestrates story collection, article extraction, and AI drafting
 - Writes the newsletter to Markdown and HTML
 - Opens the latest HTML output when you run `main.py`
-- Offers a Streamlit UI for reruns and review
 
 ## Project layout
 
 - `main.py`: command-line entry point
-- `streamlit_app.py`: visual interface
 - `src/newsletter/news_service.py`: direct news feed and article-fetching helpers
 - `src/newsletter/`: app logic
 - `.github/skills/newsletter-blueprint/SKILL.md`: newsletter configuration
@@ -60,12 +58,6 @@ This will:
 3. Ask Gemini to draft the newsletter
 4. Save files in `output/`
 5. Open the latest HTML file in your browser
-
-## Run with Streamlit
-
-```bash
-uv run streamlit run streamlit_app.py
-```
 
 ## Manage dependencies
 
